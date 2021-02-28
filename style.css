@@ -1,0 +1,99 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: rgb(243, 227, 207);
+}
+
+.header{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: space-around;
+    outline: 3px solid black;
+}
+.item{ color: red;
+    
+}
+
+
+.over{
+    display: flex;
+    max-width: 1200px;
+   
+}
+
+.saidbar{
+    min-width: 300px;
+    background-color: hotpink;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.saidbar:hover{
+    background-image: url(./img/колбаса-ховер.jpg);
+    background-position:top;
+    color: khaki;
+}
+
+.img-saidbar{
+    width: 100%;
+    /* background-color: rgb(167, 93, 156); */
+}
+
+.colorp{
+    color: rgb(14, 12, 12);
+}
+
+.colorb{
+    text-decoration: none;
+    color: rgb(110, 6, 6);
+}
+
+.colorb:hover{color: khaki;}
+
+.spisok-asaidbar{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-social{
+    max-width: 40px;
+   
+}
+
+.logo-social1{
+    max-width: 40px;
+}
+
+.sobko-histori{
+    text-align: start
+}
+
+.conteiner{
+    text-align: center;
+}
+
+.text{
+    margin-top: 20px;
+    text-align: left;
+    
+}
+
