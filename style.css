@@ -34,23 +34,33 @@ p{
 
 .saidbar{
     min-width: 300px;
-    background-color: hotpink;
+    background-image: url(../Калбаса/img/nd.jpg);
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     margin: 0 20px;
+    box-shadow:  0px 2px 1px rgba(0, 0, 0, 0.2),  0px 1px 1px rgba(0, 0, 0, 0.14),  0px 1px 3px  rgba(0, 0, 0, 0.12);
     text-align: center;
+    cursor: pointer;
 }
 
 .saidbar:hover{
-    background-image: url(./img/колбаса-ховер.jpg);
+    background-image: linear-gradient(to right, rgba(230, 100, 180, 0.3), rgba(24,67.150, 0.3)), url(./img/колбаса-ховер.jpg);
     background-position:top;
     color: khaki;
 }
 
 .img-saidbar{
-    width: 100%;
-    /* background-color: rgb(167, 93, 156); */
+    width: 320px;
+    height: 220px;
+    background-image: url(../Калбаса/img/Калбаса-сайдбар.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.img-saidbar:hover{
+    background-image: url(./img/hov-two.jpg);
 }
 
 .colorp{
@@ -64,6 +74,11 @@ p{
 
 .colorb:hover{color: khaki;}
 
+.sobko-histori{
+    margin-top: 10px;
+    text-align: start;
+}
+
 .spisok-asaidbar{
     display: flex;
     margin: 0;
@@ -71,21 +86,32 @@ p{
     margin-top: 10px;
     list-style: none;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 
-.logo-social{
-    max-width: 40px;
-   
+.social-logo {
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-size: contain;
 }
 
-.logo-social1{
-    max-width: 40px;
+ .facebook{
+    background-image: url(../Калбаса/img/2.png);
 }
 
-.sobko-histori{
-    text-align: start;
+.facebook:hover, .facebook:focus{
+    background-image: url(../Калбаса/img/facebook_logo.png);
 }
+
+.insta{
+ background-image: url(../Калбаса/img/1.png);
+}
+
+.insta:hover, .insta:focus {
+    background-image: url(../Калбаса/img/insta.png);
+   }
 
 .conteiner{
     text-align: center;
@@ -94,6 +120,12 @@ p{
 .text{
     margin-top: 20px;
     text-align: left;
-    
 }
 
+.i{
+    color: brown;
+}
+
+.nd{ 
+  box-shadow:   1px 2px 1px rgba(68, 62, 60, 0.7),  0px 1px 1px rgba(185, 81, 81, 0.4),  2px 1px 3px  rgba(0, 0, 0, 0.12);;
+}
