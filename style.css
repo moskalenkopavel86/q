@@ -35,7 +35,6 @@ p{
 .saidbar{
     min-width: 300px;
     background-image: url(./img/nd.jpg);
-    background-size: cover;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -48,7 +47,7 @@ p{
 
 .saidbar:hover{
     background-image: linear-gradient(to right, rgba(230, 100, 180, 0.3), rgba(24,67.150, 0.3)), url(./img/колбаса-ховер.jpg);
-    background-position:top;
+    background-position: top;
     color: khaki;
 }
 
