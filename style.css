@@ -53,7 +53,7 @@ p{
 .img-saidbar{
     width: 320px;
     height: 220px;
-    background-image: url(../Калбаса/img/Калбаса-сайдбар.jpg);
+    background-image: url(./img/Калбаса-сайдбар.jpg);
     background-position: center;
     background-size: cover;
    
@@ -98,19 +98,19 @@ p{
 }
 
  .facebook{
-    background-image: url(../Калбаса/img/2.png);
+    background-image: url(./img/2.png);
 }
 
 .facebook:hover, .facebook:focus{
-    background-image: url(../Калбаса/img/facebook_logo.png);
+    background-image: url(./img/facebook_logo.png);
 }
 
 .insta{
- background-image: url(../Калбаса/img/1.png);
+ background-image: url(./img/1.png);
 }
 
 .insta:hover, .insta:focus {
-    background-image: url(../Калбаса/img/insta.png);
+    background-image: url(./img/insta.png);
    }
 
 .conteiner{
