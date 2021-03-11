@@ -22,9 +22,22 @@ p{
     margin-bottom: 20px;
     padding: 10px;
     justify-content: space-around;
+    align-items: baseline;
     outline: 3px solid black;
 }
-.item{ color: red; }
+.item{ color: red; 
+}
+
+.item::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./img/gerb_zp.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .over{
     display: flex;
     max-width: 1200px;
@@ -46,7 +59,7 @@ p{
 }
 
 .saidbar:hover{
-    background-image: linear-gradient(to right, rgba(230, 100, 180, 0.3), rgba(24,67.150, 0.3)), url(./img/колбаса-ховер.jpg);
+    background-image: linear-gradient(to right, rgba(230, 100, 180, 0.3), rgba(24,67.150, 0.4)), url(./img/колбаса-ховер.jpg);
     background-position: top;
     transition: 1000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
     color: khaki;
@@ -55,31 +68,38 @@ p{
 .img-saidbar{
     max-width: 320px;
     height: 220px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(./img/Калбаса-сайдбар.jpg);
     background-position: center;
     background-size: cover;
+    
 }
 
-.img-saidbar:hover{
-    background-image: url(./img/hov-two.jpg);
+.saidbar:hover .img-saidbar{
+    background-image: url(./img/hov-two.jpg); 
+    
 }
 
 .colorp{
     color: rgb(14, 12, 12);
+    text-decoration: none;
+}
+
+.title{
+    padding: 6px 0;
 }
 
 .colorb{
-    text-decoration: none;
+    
     color: rgb(110, 6, 6);
 }
 
 .colorb:hover{color: khaki;}
 
 .sobko-histori{
-   
     margin-top: 10px;
     text-align: start;
-    text-decoration: none;
 }
 
 .sobko-histori h3{
@@ -208,13 +228,14 @@ p{
         padding: 10px 10px;
         font-size: 18px;
         font-weight: 800;
-        transition:opacity 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 350ms ;
+        transition:opacity 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 350ms ;
         opacity: 0;
+        
     }
 
     .nad:hover  .overlay-contakts{
         opacity: 1;
-        
+       
     }
 
 .text-opacity{position: absolute;
