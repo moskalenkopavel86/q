@@ -17,17 +17,25 @@ p{
 }
     
 
-.header{
-    display: flex;
-    margin-bottom: 20px;
-    padding: 10px;
-    justify-content: space-around;
-    align-items: baseline;
-    outline: 3px solid black;
+.header{position: fixed;
+    width: 100%;
+    min-height: 50px;
+    background-color: rgba(126, 115, 115, 0.8);
+   
+   
 }
+
+.header-conteiner{
+    display: flex;
+     justify-content: space-around;
+    align-items:center;
+    outline: 3px solid black;
+    padding-top: 12px;
+}
+
 .item{ 
     position: relative;
-    color: red;
+     color: red;
     animation-name:item-animation;
     animation-duration: 3000ms;
     animation-timing-function: linear;
@@ -46,10 +54,18 @@ p{
     background-repeat: no-repeat;
 }
 
+.item:hover{
+    animation-play-state: paused;
+}
+
 @keyframes item-animation{
     0%{left: 0;}
     50% {left: 200px;  }
     100%{ left: 400px; color: rgb(105, 4, 4);}
+}
+
+.main{
+    padding-top: 60px;
 }
 
 
