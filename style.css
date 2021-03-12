@@ -25,7 +25,15 @@ p{
     align-items: baseline;
     outline: 3px solid black;
 }
-.item{ color: red; 
+.item{ 
+    position: relative;
+    color: red;
+    animation-name:item-animation;
+    animation-duration: 3000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
 }
 
 .item::before{
@@ -37,6 +45,13 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+@keyframes item-animation{
+    0%{left: 0;}
+    50% {left: 200px;  }
+    100%{ left: 400px; color: rgb(105, 4, 4);}
+}
+
 
 .over{
     display: flex;
